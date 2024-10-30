@@ -141,7 +141,7 @@ main {
 		height: 260px;
 		border-radius: 50%;
 		border: 1px solid var(--stroke);
-		background: url(resources/profile.png);
+		background: url(resources/profile.webp);
 		background-size: 260px;
 		background-position: 0px 0px;
 		transition: background-size 1s, background-position 1s;
