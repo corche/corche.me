@@ -1,216 +1,195 @@
 <!DOCTYPE html>
 <html lang="ko">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta content="dark light" name="color-scheme" />
-		<title>corche</title>
-		<meta
-			name="description"
-			content="안녕하세요! 만나서 반가워요, 저는 개발자 코체라고 해요!"
-		/>
-		<meta http-equiv="Reply-To" content="corche00@gmail.com" />
-		<meta http-equiv="Email" content="corche00@gmail.com" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta content="dark light" name="color-scheme" />
+        <title>corche</title>
+        <meta
+            name="description"
+            content="안녕하세요! 만나서 반가워요, 저는 개발자 코체라고 해요!"
+        />
+        <meta http-equiv="Reply-To" content="corche00@gmail.com" />
+        <meta http-equiv="Email" content="corche00@gmail.com" />
 
-		<link rel="icon" href="/icon.ico" />
-		<link rel="apple-touch-icon" href="/icon.ico" />
-		<link rel="stylesheet" href="/style.css" />
+        <link rel="icon" href=".//icon.ico" />
+        <link rel="apple-touch-icon" href=".//icon.ico" />
+        <link rel="stylesheet" href=".//style.css" />
 
-		<meta property="og:title" content="corche" />
-		<meta
-			property="og:description"
-			content="안녕하세요! 만나서 반가워요, 저는 개발자 코체라고 해요!"
-		/>
-		<link rel="canonical" href="https://corche.me" />
+        <meta property="og:title" content="corche" />
+        <meta
+            property="og:description"
+            content="안녕하세요! 만나서 반가워요, 저는 개발자 코체라고 해요!"
+        />
+        <link rel="canonical" href="https://corche.me" />
 
-		<meta property="og:url" content="https://corche.me" />
-		<meta property="og:image" content="banner.png" />
-		<link
-			href="https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css"
-			rel="preload"
-			as="style"
-			type="text/css"
-			crossorigin
-		/>
-		<link
-			href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css"
-			rel="preload"
-			as="style"
-			type="text/css"
-			crossorigin
-		/>
-		<link
-			href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css"
-			rel="preload"
-			as="style"
-			type="text/css"
-			crossorigin
-		/>
-	</head>
-	<body>
-		<main>
-			<div class="main">
-				<div class="left">
-					<div
-						class="profile"
-						id="profile"
-						alt="profile"
-						style="background-image: url(resources/profile.png)"
-					></div>
-					<div class="left-section myname">
-						<div class="name">
-							<strong>권우진</strong> <icon>🌱</icon>
-						</div>
-						<div class="nickname">코체</div>
-					</div>
-					<button class="left-section timeline" id="button-timeline">
-						<strong>Timeline</strong>
-					</button>
-					<div class="project-counter">
-						<i class="ph ph-book-bookmark"></i>
-						<div class="item"><strong>1</strong>프로젝트</div>
-						<span> · </span>
-						<div class="item">
-							<strong>2</strong>기여한 프로젝트
-						</div>
-					</div>
-					<div class="left-section info">
-						<div class="item">
-							<i class="ph ph-map-pin"></i>
-							<span>South Korea</span>
-						</div>
-						<div class="item">
-							<i class="ph ph-student"></i>
-							<span>HighSchool Student</span>
-						</div>
-						<div class="item">
-							<i class="ph ph-code"></i>
-							<span>Frontend Developer</span>
-						</div>
-					</div>
-					<line></line>
-					<div class="left-section contacts">
-						<div class="title"><strong>Contact Me</strong></div>
-						<div class="items">
-							<a
-								aria-label="url"
-								class="item"
-								href="mailto:corche00@gmail.com"
-							>
-								<i class="ph ph-envelope"></i
-								><span>corche00@gmail.com</span>
-							</a>
-							<a
-								aria-label="url"
-								class="item"
-								href="https://discord.com/users/1300128812880625796"
-								target="_blank"
-								rel="noopner"
-							>
-								<i class="ph ph-discord-logo"></i
-								><span>corche._.</span>
-							</a>
-							<a
-								aria-label="url"
-								class="item"
-								href="https://www.instagram.com/corche_0/profilecard/?igsh=MTZoMG5pYWVlYTVyMg=="
-								target="_blank"
-								rel="noopner"
-							>
-								<i class="ph ph-instagram-logo"></i
-								><span>corche_0</span>
-							</a>
-						</div>
-					</div>
-					<line></line>
-					<div class="left-section teams">
-						<div class="title"><strong>Team</strong></div>
-						<a
-							aria-label="url"
-							class="team"
-							href="https://sqlare.com"
-							target="_blank"
-							rel="noopner"
-							rel="noreferrer noopener external"
-						>
-							<div class="team-profile">
-								<img
-									src="resources/sqlare.png"
-									width="36"
-									height="36"
-									alt="team sqlare profile image"
-								/>
-								<span>Sqlare</span>
-							</div>
-							<i class="ph ph-link"></i>
-						</a>
-					</div>
-					<line></line>
-					<div class="left-section abouts">
-						<div class="title"><strong>About</strong></div>
-						<div class="about">
-							<a
-								aria-label="url"
-								href="https://github.com/corche/"
-								target="_blank"
-								rel="noopner"
-							>
-								<i class="ph ph-github-logo"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="right">
-					<div class="intro">
-						<div class="card">
-							<div class="path">
-								<span>corche</span> / <span>README.md</span>
-							</div>
-							<div class="card-title">
-								<strong>
-									안녕하세요!<br />만나서 반가워요
-									<icon>👋</icon></strong
-								>
-								<line></line>
-							</div>
-							<div class="card-content">
-								제 이름은 "권우진" 이에요. <br />
-								편하게 <strong>"코체"</strong> 라고 불러주세요!
-								<icon>✨</icon><br />
-								제 사이트에서 재밌게 구경하다 가세요!
-								<icon>😆</icon>
-							</div>
-						</div>
-					</div>
-					<div class="projects">
-						<div class="title"><strong>프로젝트</strong></div>
-						<div class="cards">
-							<span
-								><icon>😬</icon><br />공개된 프로젝트가
-								없어요!</span
-							>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="modal" id="modal-timeline">
-				<div class="card">
-					<div class="title"><strong>타임라인</strong></div>
-					<div class="detail">
-						<span
-							><icon>🤔</icon><br />아무것도 없네요... 아직은요
-						</span>
-					</div>
-					<div class="close" id="button-timeline-close">
-						<i class="ph ph-x"></i>
-					</div>
-				</div>
-				<div class="dimm"></div>
-			</div>
-			<div class="theme" id="button-theme">
-				<i class="ph ph-moon"></i>
-			</div>
-		</main>
-		<script type="module" src="/main.js"></script>
-	</body>
+        <meta property="og:url" content="https://corche.me" />
+        <meta property="og:image" content="banner.png" />
+        <link
+            href="https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css"
+            rel="preload"
+            as="style"
+            type="text/css"
+            crossorigin
+        />
+        <link
+            href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css"
+            rel="preload"
+            as="style"
+            type="text/css"
+            crossorigin
+        />
+        <link
+            href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css"
+            rel="preload"
+            as="style"
+            type="text/css"
+            crossorigin
+        />
+    </head>
+    <body>
+        <main>
+            <div class="main">
+                <div class="left">
+                    <div
+                        class="profile"
+                        id="profile"
+                        alt="profile"
+                        style="background-image: url(./resources/profile.png)"
+                    ></div>
+                    <div class="left-section myname">
+                        <div class="name"><strong>권우진</strong> <icon>🌱</icon></div>
+                        <div class="nickname">코체</div>
+                    </div>
+                    <button class="left-section timeline" id="button-timeline">
+                        <strong>Timeline</strong>
+                    </button>
+                    <div class="project-counter">
+                        <i class="ph ph-book-bookmark"></i>
+                        <div class="item"><strong>1</strong>프로젝트</div>
+                        <span> · </span>
+                        <div class="item"><strong>2</strong>기여한 프로젝트</div>
+                    </div>
+                    <div class="left-section info">
+                        <div class="item">
+                            <i class="ph ph-map-pin"></i>
+                            <span>South Korea</span>
+                        </div>
+                        <div class="item">
+                            <i class="ph ph-student"></i>
+                            <span>HighSchool Student</span>
+                        </div>
+                        <div class="item">
+                            <i class="ph ph-code"></i>
+                            <span>Frontend Developer</span>
+                        </div>
+                    </div>
+                    <line></line>
+                    <div class="left-section contacts">
+                        <div class="title"><strong>Contact Me</strong></div>
+                        <div class="items">
+                            <a aria-label="url" class="item" href="mailto:corche00@gmail.com">
+                                <i class="ph ph-envelope"></i><span>corche00@gmail.com</span>
+                            </a>
+                            <a
+                                aria-label="url"
+                                class="item"
+                                href="https://discord.com/users/1300128812880625796"
+                                target="_blank"
+                                rel="noopner"
+                            >
+                                <i class="ph ph-discord-logo"></i><span>corche._.</span>
+                            </a>
+                            <a
+                                aria-label="url"
+                                class="item"
+                                href="https://www.instagram.com/corche_0/profilecard/?igsh=MTZoMG5pYWVlYTVyMg=="
+                                target="_blank"
+                                rel="noopner"
+                            >
+                                <i class="ph ph-instagram-logo"></i><span>corche_0</span>
+                            </a>
+                        </div>
+                    </div>
+                    <line></line>
+                    <div class="left-section teams">
+                        <div class="title"><strong>Team</strong></div>
+                        <a
+                            aria-label="url"
+                            class="team"
+                            href="https://sqlare.com"
+                            target="_blank"
+                            rel="noopner"
+                            rel="noreferrer noopener external"
+                        >
+                            <div class="team-profile">
+                                <img
+                                    src="./resources/sqlare.png"
+                                    width="36"
+                                    height="36"
+                                    alt="team sqlare profile image"
+                                />
+                                <span>Sqlare</span>
+                            </div>
+                            <i class="ph ph-link"></i>
+                        </a>
+                    </div>
+                    <line></line>
+                    <div class="left-section abouts">
+                        <div class="title"><strong>About</strong></div>
+                        <div class="about">
+                            <a
+                                aria-label="url"
+                                href="https://github.com/corche/"
+                                target="_blank"
+                                rel="noopner"
+                            >
+                                <i class="ph ph-github-logo"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="intro">
+                        <div class="card">
+                            <div class="path"><span>corche</span> / <span>README.md</span></div>
+                            <div class="card-title">
+                                <strong> 안녕하세요!<br />만나서 반가워요 <icon>👋</icon></strong>
+                                <line></line>
+                            </div>
+                            <div class="card-content">
+                                제 이름은 "권우진" 이에요. <br />
+                                편하게 <strong>"코체"</strong> 라고 불러주세요! <icon>✨</icon
+                                ><br />
+                                제 사이트에서 재밌게 구경하다 가세요!
+                                <icon>😆</icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <div class="title"><strong>프로젝트</strong></div>
+                        <div class="cards">
+                            <span><icon>😬</icon><br />공개된 프로젝트가 없어요!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal" id="modal-timeline">
+                <div class="card">
+                    <div class="title"><strong>타임라인</strong></div>
+                    <div class="detail">
+                        <span><icon>🤔</icon><br />아무것도 없네요... 아직은요 </span>
+                    </div>
+                    <div class="close" id="button-timeline-close">
+                        <i class="ph ph-x"></i>
+                    </div>
+                </div>
+                <div class="dimm"></div>
+            </div>
+            <div class="theme" id="button-theme">
+                <i class="ph ph-moon"></i>
+            </div>
+        </main>
+        <script type="module" src="/main.js"></script>
+    </body>
 </html>
