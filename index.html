@@ -4,52 +4,59 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta content="dark light" name="color-scheme" />
+		<title>corche</title>
 		<meta
 			name="description"
 			content="안녕하세요! 만나서 반가워요, 저는 개발자 코체라고 해요!"
 		/>
 		<meta http-equiv="Reply-To" content="corche00@gmail.com" />
 		<meta http-equiv="Email" content="corche00@gmail.com" />
-		<link rel="icon" href="resources/icon.ico" />
-		<link rel="apple-touch-icon" href="resources/icon.ico" />
-		<title>corche</title>
-		<link rel="stylesheet" href="./style.css" />
+
+		<link rel="icon" href="/icon.ico" />
+		<link rel="apple-touch-icon" href="/icon.ico" />
+		<link rel="stylesheet" href="/style.css" />
 
 		<meta property="og:title" content="corche" />
 		<meta
-			property="og:title"
+			property="og:description"
 			content="안녕하세요! 만나서 반가워요, 저는 개발자 코체라고 해요!"
 		/>
+		<link rel="canonical" href="https://corche.me" />
+
 		<meta property="og:url" content="https://corche.me" />
-		<meta property="og:image" content="resources/banner.png" />
-		<link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
-		<link rel="preconnect" href="https://cdn.jsdelivr.net" />
-		<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+		<meta property="og:image" content="banner.png" />
 		<link
 			href="https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css"
-			rel="stylesheet"
-			type="text/css"
-		/>
-
-		<link
-			rel="stylesheet"
+			rel="preload"
 			as="style"
-			href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css"
-		/>
-		<link rel="dns-prefetch" href="https://unpkg.com" />
-		<link rel="preconnect" href="https://unpkg.com" />
-		<link rel="preconnect" href="https://unpkg.com" crossorigin />
-		<link
-			rel="stylesheet"
 			type="text/css"
+			crossorigin
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css"
+			rel="preload"
+			as="style"
+			type="text/css"
+			crossorigin
+		/>
+		<link
 			href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css"
+			rel="preload"
+			as="style"
+			type="text/css"
+			crossorigin
 		/>
 	</head>
 	<body>
 		<main>
 			<div class="main">
 				<div class="left">
-					<div class="profile" id="profile" alt="profile"></div>
+					<div
+						class="profile"
+						id="profile"
+						alt="profile"
+						style="background-image: url(resources/profile.png)"
+					></div>
 					<div class="left-section myname">
 						<div class="name">
 							<strong>권우진</strong> <icon>🌱</icon>
@@ -204,6 +211,6 @@
 				<i class="ph ph-moon"></i>
 			</div>
 		</main>
-		<script src="script.js"></script>
+		<script type="module" src="/main.js"></script>
 	</body>
 </html>
